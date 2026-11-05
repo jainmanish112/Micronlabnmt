@@ -1412,3 +1412,18 @@ html {
     scroll-behavior: smooth;
 }
 
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr));
+    gap: 2rem;
+}
+.project-card figure { margin: 0 0 1rem; }
+.project-card svg { display: block; width: 100%; height: auto; }
+.project-card figcaption { color: #43545a; margin-top: .5rem; font-size: .9rem; }
+.project-card p + p { margin-top: .75rem; }
+.publication-item h4 a, .news-list strong a { color: inherit; text-underline-offset: .18em; }
+
+@media (max-width: 480px) {
+    .project-card { padding: 1rem; }
+    .facilities-grid { grid-template-columns: 1fr; }
+}
