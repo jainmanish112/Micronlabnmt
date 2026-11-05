@@ -1436,3 +1436,18 @@ html {
     .project-card { padding: 1rem; }
     .facilities-grid { grid-template-columns: 1fr; }
 }
+
+.equipment-image { margin: 0 0 1rem; }
+.equipment-image img {
+    display: block;
+    width: 100%;
+    height: 13rem;
+    object-fit: contain;
+    background: #f4f6f6;
+}
+.equipment-image figcaption {
+    margin-top: .5rem;
+    font-size: .875rem;
+    line-height: 1.4;
+    color: #43545a;
+}

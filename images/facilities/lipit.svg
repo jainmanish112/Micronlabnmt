@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" role="img" aria-labelledby="title desc">
+  <title id="title">Laser-induced particle impact test</title>
+  <desc id="desc">A laser pulse reaches a launch pad. A microparticle leaves the opposite face and travels toward a target.</desc>
+  <rect width="600" height="360" fill="#f1f5f4"/>
+  <path d="M32 168 L208 191 L32 214 Z" fill="#ebbe6f"/>
+  <rect x="207" y="126" width="17" height="130" rx="2" fill="#9dbdbd"/>
+  <rect x="224" y="126" width="6" height="130" fill="#345057"/>
+  <path d="M248 191 H454 m-15 -9 15 9 -15 9" fill="none" stroke="#207d79" stroke-width="3" stroke-dasharray="8 4"/>
+  <circle cx="329" cy="191" r="10" fill="#384e58" stroke="#fff" stroke-width="2"/>
+  <rect x="466" y="117" width="65" height="148" rx="3" fill="#557882"/>
+  <g fill="#203c47" font-family="Arial,sans-serif" font-size="21" text-anchor="middle">
+    <text x="95" y="145">Laser pulse</text>
+    <text x="216" y="292">Launch pad</text>
+    <text x="331" y="143">Microparticle</text>
+    <text x="497" y="293">Target</text>
+  </g>
+  <path d="M330 151 V175" stroke="#557882" stroke-width="2"/>
+</svg>
