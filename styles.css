@@ -962,7 +962,7 @@ section h2 {
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
     gap: 2rem;
     margin-bottom: 2rem;
 }
@@ -992,6 +992,15 @@ section h2 {
     align-items: center;
     justify-content: center;
 }
+
+.team-member img[src$="sydur-rahman.webp"] {
+    transform: scale(2.6);
+    transform-origin: 49% 43%;
+}
+
+.member-bio { text-align: left; }
+.member-bio p { margin: .85rem 0; line-height: 1.6; }
+.member-email { overflow-wrap: anywhere; }
 
 .team-placeholder {
     color: white;
